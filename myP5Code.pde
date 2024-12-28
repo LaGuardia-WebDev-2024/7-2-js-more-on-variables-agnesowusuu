@@ -16,13 +16,30 @@ void draw(){
   noStroke();
   fill(30, 204, 91); // a nice froggy green!
 
+
   ellipse(x, y, 200, 100); // face
+  
+  fill(255,255,255);//frogs mouth color
+  ellipse(x, y, 100,45);//frogs mouth
+  
+   fill(30, 204, 91); // a nice froggy green!
+  
   ellipse(x - 50, y - 50, 40, 40); // left eye socket
   ellipse(x + 50, y - 50, 40, 40); // right eye socket
 
-  fill(255, 255, 255); // for the whites of the eyes!
+
+  fill(1)
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
+  
+  fill(255,69,0)
+  ellipse(x - 50, y - 50, 30, 20); // left eyeball
+  ellipse(x + 50, y - 50, 30, 20); // right eyeball
+  
+   
+  fill(1)
+  rect(x-60,y-60,5,20);//left pupil
+  rect(x+40,y-60,5,20);//right pupil 
   
 
 }
